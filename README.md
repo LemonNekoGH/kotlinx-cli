@@ -7,11 +7,9 @@
 Pure Kotlin implementation of a generic command-line parser. This version is Kotlin/Native only.
 
 * Declarative: describe what your commands and parameters are
-* Platform-agnostic: core library has no platform-specific dependencies and can be used in any Kotlin project
 * Hackable: build extensions on top of it however you like
 
-`kotlinx-cli` can be used to create user-friendly and flexible command-line interfaces
-for Kotlin/JVM, Kotlin/Native, and any other Kotlin console applications.
+`kotlinx-cli` can be used to create user-friendly and flexible command-line interfaces,
 Program defines what arguments are expected.
 `kotlinx-cli` will figure out how to parse those, reporting errors if the program arguments are invalid,
 and also generate help and usage messages as well.
